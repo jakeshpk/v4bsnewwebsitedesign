@@ -390,7 +390,7 @@ a:hover {
 }
 
 .navbar-brand .brand-logo {
-    height: 50px;
+    height: 70px;
     width: auto;
     object-fit: contain;
     transition: all var(--transition-base);
@@ -1277,4 +1277,5 @@ section {
 
 .overflow-auto {
     overflow: auto;
+
 }
