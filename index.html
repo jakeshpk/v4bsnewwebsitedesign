@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="V4 Building Solutions - Engineering Tomorrow with cutting-edge BIM, Electrical, Plumbing, IT Solutions & Architectural Visualization services">
+    <meta name="keywords"
+        content="BIM, Chartered Engineer, Electrical Testing, Plumbing, CAD to BIM, Architectural Visualization, IT Solutions">
+    <title>V4 Building Solutions | Engineering Tomorrow</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/v4-logo.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="navbar-brand">
+                <img src="assets/images/v4-logo.jpg" alt="V4 Building Solutions" class="brand-logo">
+                <span class="brand-text">V4 Building Solutions</span>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Engineering Tomorrow</h1>
+                <p class="hero-subtitle">Transforming visions into reality with cutting-edge BIM, engineering solutions,
+                    and architectural visualization</p>
+                <div class="hero-cta">
+                    <a href="#services" class="btn btn-primary">Explore Services</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2 class="section-title">Our <span class="gradient-text">Services</span></h2>
+                <p class="section-subtitle">Comprehensive engineering and technology solutions tailored to your needs
+                </p>
+            </div>
+
+            <div class="grid grid-3">
+                <!-- Service 1: Chartered Engineer -->
+                <div class="service-card scroll-reveal" data-service="chartered">
+                    <div class="service-icon">⚡</div>
+                    <h3 class="service-title">Chartered Engineer Services</h3>
+                    <p class="service-description">KSEB licensed Chartered Electrical Engineer providing technical
+                        audits, project valuations, and certifications</p>
+                    <a href="#service-chartered" class="btn btn-secondary">Learn More</a>
+                </div>
+
+                <!-- Service 2: BIM & Training -->
+                <div class="service-card scroll-reveal" data-service="bim">
+                    <div class="service-icon">🏗️</div>
+                    <h3 class="service-title">BIM & Training</h3>
+                    <p class="service-description">Expert BIM consulting, Revit, Navisworks training, and comprehensive
+                        Building Information Modeling solutions</p>
+                    <a href="#service-bim" class="btn btn-secondary">Learn More</a>
+                </div>
+
+                <!-- Service 3: Electrical Testing -->
+                <div class="service-card scroll-reveal" data-service="testing">
+                    <div class="service-icon">🔌</div>
+                    <h3 class="service-title">Electrical Testing & Audits</h3>
+                    <p class="service-description">Comprehensive electrical testing, energy audits, and KSEB compliance
+                        services</p>
+                    <a href="#service-testing" class="btn btn-secondary">Learn More</a>
+                </div>
+
+                <!-- Service 4: Plumbing Solutions -->
+                <div class="service-card scroll-reveal" data-service="plumbing">
+                    <div class="service-icon">💧</div>
+                    <h3 class="service-title">Plumbing Solutions</h3>
+                    <p class="service-description">Professional plumbing design, installation, and contracting services
+                        for all building types</p>
+                    <a href="#service-plumbing" class="btn btn-secondary">Learn More</a>
+                </div>
+
+                <!-- Service 5: CAD to BIM -->
+                <div class="service-card scroll-reveal" data-service="cad2bim">
+                    <div class="service-icon">📐</div>
+                    <h3 class="service-title">CAD to BIM Conversion</h3>
+                    <p class="service-description">Transform your 2D CAD drawings into intelligent 3D BIM models for
+                        better collaboration</p>
+                    <a href="#service-cad2bim" class="btn btn-secondary">Learn More</a>
+                </div>
+
+                <!-- Service 6: Architectural Visualization -->
+                <div class="service-card scroll-reveal" data-service="visualization">
+                    <div class="service-icon">🎨</div>
+                    <h3 class="service-title">Architectural Visualization</h3>
+                    <p class="service-description">Photorealistic 3D rendering, virtual tours, and immersive
+                        architectural visualization</p>
+                    <a href="#service-visualization" class="btn btn-secondary">Learn More</a>
+                </div>
+
+                <!-- Service 7: IT Solutions -->
+                <div class="service-card scroll-reveal" data-service="it">
+                    <div class="service-icon">💻</div>
+                    <h3 class="service-title">IT Solutions</h3>
+                    <p class="service-description">Custom AppSheet development, web applications, Python automation, and
+                        IT consulting</p>
+                    <a href="#service-it" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chartered Engineer Service Detail -->
+    <section id="service-chartered" class="service-detail-section">
+        <div class="container">
+            <div class="scroll-reveal">
+                <h2 class="section-title"><span class="gradient-text">Chartered Engineer</span> Services</h2>
+                <p class="section-subtitle">KSEB Licensed Electrical Engineering Excellence</p>
+            </div>
+
+            <div class="grid grid-2 mt-xl">
+                <div class="glass-card scroll-reveal">
+                    <h3>Technical Audits</h3>
+                    <p>Comprehensive electrical system audits ensuring compliance with KSEB regulations and safety
+                        standards. Our detailed inspections identify potential issues before they become problems.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Project Valuation</h3>
+                    <p>Accurate electrical project cost estimation and valuation services for construction projects,
+                        renovations, and infrastructure development.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Certification Services</h3>
+                    <p>Official certification and approval services for electrical installations, ensuring your project
+                        meets all regulatory requirements.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Consultation</h3>
+                    <p>Expert electrical engineering consultation for design optimization, energy efficiency, and
+                        sustainable building practices.</p>
+                </div>
+            </div>
+
+            <div class="stats-grid mt-xl scroll-reveal">
+                <div class="stat-item">
+                    <span class="stat-value" data-count="500">0</span>
+                    <span class="stat-label">Projects Certified</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" data-count="15">0</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" data-count="100">0</span>
+                    <span class="stat-label">Client Satisfaction</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BIM & Training Service Detail -->
+    <section id="service-bim" class="service-detail-section">
+        <div class="container">
+            <div class="scroll-reveal">
+                <h2 class="section-title"><span class="gradient-text">BIM & Training</span></h2>
+                <p class="section-subtitle">Building Information Modeling Excellence & Professional Development</p>
+            </div>
+
+            <div class="grid grid-2 mt-xl">
+                <div class="glass-card scroll-reveal">
+                    <h3>BIM Consulting</h3>
+                    <p>Strategic BIM implementation guidance, workflow optimization, and digital transformation
+                        consulting for architecture and engineering firms.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Revit Training</h3>
+                    <p>Comprehensive Autodesk Revit training programs covering Architecture, Structure, and MEP
+                        disciplines with hands-on project experience.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Navisworks Expertise</h3>
+                    <p>Advanced Navisworks training for clash detection, 4D simulation, and construction project
+                        coordination.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>BIM Coordination</h3>
+                    <p>Multi-disciplinary BIM coordination services ensuring seamless integration of architectural,
+                        structural, and MEP models.</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-xl scroll-reveal">
+                <a href="#contact" class="btn btn-accent">Request Training Info</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Electrical Testing Service Detail -->
+    <section id="service-testing" class="service-detail-section">
+        <div class="container">
+            <div class="scroll-reveal">
+                <h2 class="section-title"><span class="gradient-text">Electrical Testing</span> & Audits</h2>
+                <p class="section-subtitle">Comprehensive Electrical System Analysis & Compliance</p>
+            </div>
+
+            <div class="grid grid-3 mt-xl">
+                <div class="glass-card scroll-reveal">
+                    <h3>Energy Audits</h3>
+                    <p>Detailed energy consumption analysis and optimization recommendations to reduce costs and improve
+                        efficiency.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Safety Testing</h3>
+                    <p>Comprehensive electrical safety testing including earth resistance, insulation resistance, and
+                        RCD testing.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>KSEB Compliance</h3>
+                    <p>Full compliance testing and documentation for KSEB requirements and electrical safety
+                        regulations.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Load Testing</h3>
+                    <p>Accurate load analysis and testing to ensure your electrical system can handle current and future
+                        demands.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Preventive Maintenance</h3>
+                    <p>Regular electrical system maintenance programs to prevent failures and extend equipment lifespan.
+                    </p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Thermal Imaging</h3>
+                    <p>Advanced thermal imaging inspection to detect hot spots and potential electrical failures before
+                        they occur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plumbing Solutions Service Detail -->
+    <section id="service-plumbing" class="service-detail-section">
+        <div class="container">
+            <div class="scroll-reveal">
+                <h2 class="section-title"><span class="gradient-text">Plumbing Solutions</span></h2>
+                <p class="section-subtitle">Expert Plumbing Design & Installation Services</p>
+            </div>
+
+            <div class="grid grid-2 mt-xl">
+                <div class="glass-card scroll-reveal">
+                    <h3>Plumbing Design</h3>
+                    <p>Professional plumbing system design for residential, commercial, and industrial projects with
+                        optimal efficiency.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Installation Services</h3>
+                    <p>Expert installation of water supply, drainage, and sewage systems with quality materials and
+                        workmanship.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Water Treatment Systems</h3>
+                    <p>Design and installation of water purification, filtration, and treatment systems for safe water
+                        supply.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Rainwater Harvesting</h3>
+                    <p>Sustainable rainwater collection and management systems to conserve water and reduce utility
+                        costs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CAD to BIM Service Detail -->
+    <section id="service-cad2bim" class="service-detail-section">
+        <div class="container">
+            <div class="scroll-reveal">
+                <h2 class="section-title"><span class="gradient-text">CAD to BIM</span> Conversion</h2>
+                <p class="section-subtitle">Transform 2D Drawings into Intelligent 3D Models</p>
+            </div>
+
+            <div class="grid grid-2 mt-xl">
+                <div class="glass-card scroll-reveal">
+                    <h3>2D to 3D Conversion</h3>
+                    <p>Accurate conversion of AutoCAD drawings into fully coordinated Revit BIM models with intelligent
+                        components.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>LOD Development</h3>
+                    <p>Create BIM models at various Levels of Development (LOD 100-500) based on project requirements.
+                    </p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Point Cloud to BIM</h3>
+                    <p>Convert laser scan point cloud data into accurate as-built BIM models for renovation and
+                        documentation.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>MEP Modeling</h3>
+                    <p>Detailed MEP system modeling from 2D drawings with full coordination and clash detection.</p>
+                </div>
+            </div>
+
+            <div class="stats-grid mt-xl scroll-reveal">
+                <div class="stat-item">
+                    <span class="stat-value" data-count="1000">0</span>
+                    <span class="stat-label">Drawings Converted</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value" data-count="95">0</span>
+                    <span class="stat-label">Accuracy Rate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Architectural Visualization Service Detail -->
+    <section id="service-visualization" class="service-detail-section">
+        <div class="container">
+            <div class="scroll-reveal">
+                <h2 class="section-title"><span class="gradient-text">Architectural Visualization</span></h2>
+                <p class="section-subtitle">Photorealistic 3D Rendering & Virtual Tours</p>
+            </div>
+
+            <div class="grid grid-3 mt-xl">
+                <div class="glass-card scroll-reveal">
+                    <h3>3D Rendering</h3>
+                    <p>Stunning photorealistic renderings that bring your architectural designs to life with perfect
+                        lighting and materials.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Virtual Tours</h3>
+                    <p>Immersive 360° virtual tours allowing clients to experience spaces before construction begins.
+                    </p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Animation Walkthroughs</h3>
+                    <p>Dynamic architectural animations showcasing design features, spatial relationships, and user
+                        experience.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Interior Visualization</h3>
+                    <p>Detailed interior renderings with custom materials, furniture, and lighting for residential and
+                        commercial spaces.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Exterior Rendering</h3>
+                    <p>Contextual exterior visualizations with landscaping, environment, and realistic lighting
+                        conditions.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>VR Experiences</h3>
+                    <p>Virtual reality experiences for fully immersive architectural presentations and design reviews.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- IT Solutions Service Detail -->
+    <section id="service-it" class="service-detail-section">
+        <div class="container">
+            <div class="scroll-reveal">
+                <h2 class="section-title"><span class="gradient-text">IT Solutions</span></h2>
+                <p class="section-subtitle">Custom Software Development & Digital Transformation</p>
+            </div>
+
+            <div class="grid grid-2 mt-xl">
+                <div class="glass-card scroll-reveal">
+                    <h3>AppSheet Development</h3>
+                    <p>No-code/low-code application development using Google AppSheet for custom business workflows and
+                        data management.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Web Development</h3>
+                    <p>Modern, responsive website development with cutting-edge technologies for optimal user experience
+                        and performance.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Python Automation</h3>
+                    <p>Custom Python scripts and automation solutions to streamline workflows, process data, and
+                        increase productivity.</p>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>IT Consulting</h3>
+                    <p>Strategic IT consulting for digital transformation, cloud migration, and technology stack
+                        optimization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Gallery Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2 class="section-title">Our <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">Showcasing excellence in engineering and design</p>
+            </div>
+
+            <!-- Gallery Filter -->
+            <div class="gallery-filters text-center mb-xl scroll-reveal">
+                <button class="btn btn-secondary active" data-filter="all">All Projects</button>
+                <button class="btn btn-secondary" data-filter="residential">Residential</button>
+                <button class="btn btn-secondary" data-filter="commercial">Commercial</button>
+                <button class="btn btn-secondary" data-filter="industrial">Industrial</button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Residential Projects -->
+                <div class="gallery-item scroll-reveal" data-category="residential">
+                    <img src="assets/images/project-residential-1.jpg" alt="Modern Residential Villa" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Modern Residential Villa</h3>
+                        <p class="gallery-category">Residential</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item scroll-reveal" data-category="residential">
+                    <img src="assets/images/project-interior-1.jpg" alt="Contemporary Interior Design" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Contemporary Interior Design</h3>
+                        <p class="gallery-category">Residential</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item scroll-reveal" data-category="residential">
+                    <img src="assets/images/project-interior-2.jpg" alt="Luxury Interior Design" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Luxury Interior Design</h3>
+                        <p class="gallery-category">Residential</p>
+                    </div>
+                </div>
+
+                <!-- Commercial/Infrastructure Projects -->
+                <div class="gallery-item scroll-reveal" data-category="commercial">
+                    <img src="assets/images/project-infrastructure.jpg" alt="Infrastructure Development" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Infrastructure Development</h3>
+                        <p class="gallery-category">Commercial</p>
+                    </div>
+                </div>
+
+                <!-- Industrial Projects -->
+                <div class="gallery-item scroll-reveal" data-category="industrial">
+                    <img src="assets/images/project-electrical.jpg" alt="Electrical Panel Installation" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3 class="gallery-title">Electrical Panel Installation</h3>
+                        <p class="gallery-category">Industrial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+                <p class="section-subtitle">Let's discuss how we can bring your project to life</p>
+            </div>
+
+            <div class="grid grid-2 mt-xl">
+                <div class="glass-card scroll-reveal">
+                    <h3>Contact Information</h3>
+                    <div class="contact-info">
+                        <p><strong>📧 Email:</strong> <a href="mailto:info@v4bs.in">info@v4bs.in</a></p>
+                        <p><strong>📞 Phone:</strong> <a href="tel:+919526724785">+91 95267 24785</a></p>
+                        <p><strong>📍 Location:</strong> Parempadam, Kunnamkulam, Kerala, India</p>
+                        <p><strong>🏢 Address:</strong> 1st Floor, Vibins Complex, Parempadam</p>
+                    </div>
+
+                    <div class="social-links mt-lg">
+                        <a href="https://www.facebook.com/profile.php?id=61566564854807" target="_blank" rel="noopener"
+                            class="social-link" aria-label="Facebook" title="Follow us on Facebook">📘 Facebook</a>
+                        <a href="https://www.instagram.com/v4buildingsolutions/" target="_blank" rel="noopener"
+                            class="social-link" aria-label="Instagram" title="Follow us on Instagram">📸 Instagram</a>
+                    </div>
+
+                    <div class="action-buttons mt-lg">
+                        <a href="https://wa.me/919526724785" target="_blank" rel="noopener"
+                            class="btn btn-accent whatsapp-btn">
+                            💬 Chat on WhatsApp
+                        </a>
+                        <a href="https://maps.app.goo.gl/7KmYJ1zrMajG7gRs6" target="_blank" rel="noopener"
+                            class="btn btn-primary">
+                            📍 Open in Maps
+                        </a>
+                    </div>
+                </div>
+
+                <div class="glass-card scroll-reveal">
+                    <h3>Our Location</h3>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3921.234!2d76.0523!3d10.6446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDM4JzQwLjYiTiA3NsKwMDMnMDguMyJF!5e0!3m2!1sen!2sin!4v1234567890"
+                            width="100%" height="300" style="border:0; border-radius: 1rem;" allowfullscreen=""
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <p class="mt-md text-center">1st Floor, Vibins Complex, Parempadam, Kunnamkulam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>V4 Building Solutions</h4>
+                    <p>Engineering tomorrow with innovative solutions in BIM, electrical, plumbing, and architectural
+                        visualization.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#service-chartered">Chartered Engineer</a></li>
+                        <li><a href="#service-bim">BIM & Training</a></li>
+                        <li><a href="#service-testing">Electrical Testing</a></li>
+                        <li><a href="#service-visualization">Arch Visualization</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <p>Follow us on social media for updates and insights.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn">🔗</a>
+                        <a href="#" class="social-link" aria-label="Facebook">📘</a>
+                        <a href="#" class="social-link" aria-label="Instagram">📸</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 V4 Building Solutions. All rights reserved. | Engineering Tomorrow, Today.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919526724785" target="_blank" rel="noopener" class="whatsapp-float"
+        aria-label="Chat on WhatsApp" title="Chat on WhatsApp">
+        💬
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
